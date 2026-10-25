@@ -1,0 +1,76 @@
+.dept-card {
+  padding: 20px;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.dept-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.dept-name {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--on-surface);
+}
+
+.dept-floor {
+  font-size: 12px;
+  color: var(--on-surface-variant);
+  opacity: 0.6;
+  margin-top: 2px;
+}
+
+.dept-tag {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 4px 10px;
+  border-radius: 8px;
+  white-space: nowrap;
+}
+
+.dept-tag-primary {
+  background: rgba(0, 71, 141, 0.1);
+  color: var(--primary);
+}
+
+.dept-tag-error {
+  background: rgba(186, 26, 26, 0.1);
+  color: var(--error);
+}
+
+.dept-stats {
+  display: flex;
+  gap: 16px;
+  border-top: 1px solid rgba(224, 227, 229, 0.3);
+  padding-top: 12px;
+}
+
+.dept-stat {
+  flex: 1;
+  text-align: center;
+}
+
+.dept-stat-label {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--outline);
+  margin-bottom: 4px;
+}
+
+.dept-stat-value {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--on-surface);
+}
+
+.dept-stat-highlight {
+  color: var(--error);
+}

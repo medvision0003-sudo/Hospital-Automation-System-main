@@ -1,0 +1,48 @@
+# Virtual Environment
+venv/
+.venv/
+
+# Environment Variables
+.env
+.env.*
+!.env.example
+
+# Local dependencies and generated frontend build
+node_modules/
+frontend-react/node_modules/
+frontend-react/dist/
+frontend/
+
+# Local databases and application data
+*.db
+*.sqlite
+*.sqlite3
+uploads/
+
+# Python Cache
+__pycache__/
+*.pyc
+.pytest_cache
+pytest.ini
+
+
+# VS Code
+.vscode/
+Draw io/
+test.py
+.agents/
+memory vault/
+test_assignment_agent.py
+walkthroughs/
+test/
+uploads/
+seeds/
+zDOc/
+zReview/
+
+# PyCharm
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db

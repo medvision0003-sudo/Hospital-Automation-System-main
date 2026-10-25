@@ -1,0 +1,30 @@
+export const MAHARASHTRA_HOLIDAYS_2026 = [
+  { date: '2026-01-26', name: 'Republic Day', type: 'National' },
+  { date: '2026-02-15', name: 'Mahashivratri', type: 'State / Regional' },
+  { date: '2026-02-19', name: 'Chhatrapati Shivaji Maharaj Jayanti', type: 'State' },
+  { date: '2026-03-03', name: 'Holi (Second Day / Dhulivandan)', type: 'State' },
+  { date: '2026-03-19', name: 'Gudhi Padwa (Marathi New Year)', type: 'State' },
+  { date: '2026-03-21', name: 'Ramzan-Id (Id-Ul-Fitra)', type: 'State' },
+  { date: '2026-03-26', name: 'Ram Navami', type: 'State' },
+  { date: '2026-03-31', name: 'Mahavir Janmakalyanak', type: 'State' },
+  { date: '2026-04-01', name: 'Yearly Account Closing (Banks Only)', type: 'Bank-Only' },
+  { date: '2026-04-03', name: 'Good Friday', type: 'State' },
+  { date: '2026-04-14', name: 'Dr. Babasaheb Ambedkar Jayanti', type: 'National' },
+  { date: '2026-05-01', name: 'Maharashtra Din & Buddha Pournima', type: 'State' },
+  { date: '2026-05-28', name: 'Bakri ID (Id-Uz-Zuha)', type: 'State' },
+  { date: '2026-06-26', name: 'Moharum', type: 'State' },
+  { date: '2026-08-15', name: 'Independence Day & Parsi New Year', type: 'National / State' },
+  { date: '2026-08-26', name: 'Id-E-Milad', type: 'State' },
+  { date: '2026-09-14', name: 'Ganesh Chaturthi', type: 'State' },
+  { date: '2026-10-02', name: 'Mahatma Gandhi Jayanti', type: 'National' },
+  { date: '2026-10-20', name: 'Dasara (Dussehra)', type: 'State' },
+  { date: '2026-11-08', name: 'Diwali Amavasya (Laxmi Pujan)', type: 'State' },
+  { date: '2026-11-10', name: 'Diwali (Bali Pratipada)', type: 'State' },
+  { date: '2026-11-11', name: 'Bhaubeej', type: 'State Govt / Local' },
+  { date: '2026-11-24', name: 'Guru Nanak Jayanti', type: 'State' },
+  { date: '2026-12-25', name: 'Christmas', type: 'State' },
+]
+
+export const MAHARASHTRA_HOLIDAY_DATES_2026 = new Set(
+  MAHARASHTRA_HOLIDAYS_2026.map((holiday) => holiday.date),
+)
